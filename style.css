@@ -1,0 +1,101 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color:yellow;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a.active,
+nav a:hover {
+    color: deeppink
+}
+
+/* Home Section */
+section.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 50px;
+    background:url("https://png.pngtree.com/background/20210710/original/pngtree-senior-festive-golden-building-advertising-background-picture-image_975270.jpg");
+    background-size: cover;
+}
+
+.home-img img {
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.home-content {
+    max-width: 500px;
+}
+
+.home-content h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.home-content h1 span {
+    color: #007BFF;
+}
+
+.home-content h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.typing-text span {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.home-content p {
+    margin: 20px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.social-icon a {
+    font-size: 24px;
+    color: #007BFF;
+    margin-right: 10px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.social-icon a:hover {
+    transform: scale(1.2);
+}
